@@ -37,11 +37,11 @@ function App() {
   return (
     <div className="App">
       <div className='to-code'>{postcode}</div>
-      <div className="from-name">大西 〇〇</div>
-      <div className="from-post">香川県〇〇郡〇〇町〇〇</div>
-      <div className="to-name">〇〇研究所 様</div>
+      <div className="from-name">〇〇 〇〇</div>
+      <div className="from-post">〇〇県〇〇郡〇〇町〇〇</div>
+      <div className="to-name">株式会社〇〇 様</div>
       <div className="to-post">{post}</div>
-      <div className='from-code'>7660023</div>
+      <div className='from-code'>00000000</div>
     </div>
   );
 }
